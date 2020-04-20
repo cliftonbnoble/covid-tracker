@@ -1,0 +1,16 @@
+.root {
+    width: 100%;
+    max-width: 800px;
+    background-color: gray;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.5;
+    
+}

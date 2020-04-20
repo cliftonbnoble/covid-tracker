@@ -1,5 +1,7 @@
 body {
-    background-color: aqua;
+    background-color: #ece9e9;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -8,3 +10,32 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+
+.image {
+    width: 100% !important;
+    /* margin: 0 !important;
+    padding: 0 !important; */
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 5%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+.banner {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+  
+  
+  
