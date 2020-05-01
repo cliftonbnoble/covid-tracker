@@ -13,13 +13,16 @@ body {
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 60px;
+    font-size: 48px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
 }
 
 .image {
     width: 100% !important;
-    /* margin: 0 !important;
-    padding: 0 !important; */
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 @media (max-width: 770px) {
@@ -37,5 +40,21 @@ h1 {
   padding: 0 !important;
 }
   
-  
-  
+h6 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 48px;
+    padding: 2px 2px;
+    margin: 2px 2px 10px 2px;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-rendering: optimizeLegibility; */
+}
+
+.highlight {
+    /* background-image: url(/static/blackgrit-15c1685….png); */
+    background-color: #ffc600;
+    background-size: 500px;
+    /* padding: 5px; */
+}
+    
+    

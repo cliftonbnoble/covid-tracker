@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import styles from './MediaCard.module.css';
+// import styles from './MediaCard.module.css';
 
 const useStyles = makeStyles({
   root: {
@@ -35,7 +35,7 @@ const MediaCard = () => {
             Global 
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Serving data from John Hopkins University CSSE as a JSON API.  Serving data from John Hopkins University CSSE as a JSON API
+            Serving data from John Hopkins University CSSE as a JSON API.  For mor information please click on Learn More.  Data in this graphic lags information above.  Check last updated. 
           </Typography>
         </CardContent>
       </CardActionArea>

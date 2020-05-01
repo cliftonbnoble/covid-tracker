@@ -13,7 +13,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
 
     return (
         <div className={styles.container}>
-            <Grid container direction="row" spacing={12} justify="center" >
+            <Grid container direction="row" spacing={0} justify="center" >
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
                 <CardContent>
                 <Typography variant="h2" align="center"><span role="img" aria-label="sick">🤒</span></Typography>
@@ -48,7 +48,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                 <Typography variant="h2" align="center"><span role="img" aria-label="sick">☠️</span></Typography>
                     <Typography align="center" variant="h4" gutterBottom>Death %</Typography>
                     <Typography variant="h3" align="center" gutterBottom>
-                        <CountUp start={0} end={percent.toFixed(2)} duration={4.5} separator="," />%
+                        <CountUp start={0} end={percent} duration={4.5} separator="," />%
                         </Typography>
                     <Typography color="textSecondary" align="center">Last Updated: {new Date(lastUpdate).toDateString()}</Typography>
                 </CardContent>
