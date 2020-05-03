@@ -41,7 +41,7 @@ class App extends React.Component {
             <Cards data={data}/>
             <Typography variant="button" display="block">For up to the minute stats provided by John Hopkins.  Click on the github link for more information.  <a href="https://github.com/mathdroid/covid-19-api" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github-alt fa-2x"></i></a></Typography>
             <ListDivider  />
-            <Typography>Choose from the dropdown to display stats above and </Typography>
+            <h7 className={styles.highlight}>Choose from the dropdown to display stats above and graph below.</h7>
             <ListDivider  />
             <CountryPicker handCountryChange={this.handCountryChange} />
             <ListDivider  />
